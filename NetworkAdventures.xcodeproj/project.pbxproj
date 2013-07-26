@@ -69,6 +69,7 @@
 		84CFD11F17A2A4C0004FC5DE /* NAPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAPath.m; sourceTree = "<group>"; };
 		84CFD12117A2A4C7004FC5DE /* NAFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAFile.h; sourceTree = "<group>"; };
 		84CFD12217A2A4C7004FC5DE /* NAFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAFile.m; sourceTree = "<group>"; };
+		84CFD12417A2A65B004FC5DE /* NetworkAdventures.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NetworkAdventures.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		84CFD0E017A2A190004FC5DE = {
 			isa = PBXGroup;
 			children = (
+				84CFD12417A2A65B004FC5DE /* NetworkAdventures.podspec */,
 				84CFD0EE17A2A190004FC5DE /* NetworkAdventures */,
 				84CFD10317A2A190004FC5DE /* NetworkAdventuresTests */,
 				84CFD0EB17A2A190004FC5DE /* Frameworks */,
