@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CFD04B17A2A014004FC5DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CFD04A17A2A014004FC5DE /* Foundation.framework */; };
+		84CFD05017A2A014004FC5DE /* NetworkAdventures.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84CFD04F17A2A014004FC5DE /* NetworkAdventures.h */; };
+		84CFD05217A2A014004FC5DE /* NetworkAdventures.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD05117A2A014004FC5DE /* NetworkAdventures.m */; };
+		84CFD05A17A2A014004FC5DE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CFD05917A2A014004FC5DE /* SenTestingKit.framework */; };
+		84CFD05C17A2A014004FC5DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CFD05B17A2A014004FC5DE /* UIKit.framework */; };
+		84CFD05D17A2A014004FC5DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CFD04A17A2A014004FC5DE /* Foundation.framework */; };
+		84CFD06017A2A014004FC5DE /* libNetworkAdventures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CFD04717A2A014004FC5DE /* libNetworkAdventures.a */; };
+		84CFD06617A2A014004FC5DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84CFD06417A2A014004FC5DE /* InfoPlist.strings */; };
+		84CFD06917A2A014004FC5DE /* NetworkAdventuresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD06817A2A014004FC5DE /* NetworkAdventuresTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CFD05E17A2A014004FC5DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CFD03F17A2A014004FC5DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CFD04617A2A014004FC5DE;
+			remoteInfo = NetworkAdventures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84CFD04517A2A014004FC5DE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				84CFD05017A2A014004FC5DE /* NetworkAdventures.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84CFD04717A2A014004FC5DE /* libNetworkAdventures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetworkAdventures.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CFD04A17A2A014004FC5DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84CFD04E17A2A014004FC5DE /* NetworkAdventures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkAdventures-Prefix.pch"; sourceTree = "<group>"; };
+		84CFD04F17A2A014004FC5DE /* NetworkAdventures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkAdventures.h; sourceTree = "<group>"; };
+		84CFD05117A2A014004FC5DE /* NetworkAdventures.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkAdventures.m; sourceTree = "<group>"; };
+		84CFD05817A2A014004FC5DE /* NetworkAdventuresTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkAdventuresTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CFD05917A2A014004FC5DE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84CFD05B17A2A014004FC5DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		84CFD06317A2A014004FC5DE /* NetworkAdventuresTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkAdventuresTests-Info.plist"; sourceTree = "<group>"; };
+		84CFD06517A2A014004FC5DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84CFD06717A2A014004FC5DE /* NetworkAdventuresTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkAdventuresTests.h; sourceTree = "<group>"; };
+		84CFD06817A2A014004FC5DE /* NetworkAdventuresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkAdventuresTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CFD04417A2A014004FC5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CFD04B17A2A014004FC5DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CFD05417A2A014004FC5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CFD05A17A2A014004FC5DE /* SenTestingKit.framework in Frameworks */,
+				84CFD05C17A2A014004FC5DE /* UIKit.framework in Frameworks */,
+				84CFD05D17A2A014004FC5DE /* Foundation.framework in Frameworks */,
+				84CFD06017A2A014004FC5DE /* libNetworkAdventures.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CFD03E17A2A014004FC5DE = {
+			isa = PBXGroup;
+			children = (
+				84CFD04C17A2A014004FC5DE /* NetworkAdventures */,
+				84CFD06117A2A014004FC5DE /* NetworkAdventuresTests */,
+				84CFD04917A2A014004FC5DE /* Frameworks */,
+				84CFD04817A2A014004FC5DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CFD04817A2A014004FC5DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CFD04717A2A014004FC5DE /* libNetworkAdventures.a */,
+				84CFD05817A2A014004FC5DE /* NetworkAdventuresTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CFD04917A2A014004FC5DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84CFD04A17A2A014004FC5DE /* Foundation.framework */,
+				84CFD05917A2A014004FC5DE /* SenTestingKit.framework */,
+				84CFD05B17A2A014004FC5DE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84CFD04C17A2A014004FC5DE /* NetworkAdventures */ = {
+			isa = PBXGroup;
+			children = (
+				84CFD04F17A2A014004FC5DE /* NetworkAdventures.h */,
+				84CFD05117A2A014004FC5DE /* NetworkAdventures.m */,
+				84CFD04D17A2A014004FC5DE /* Supporting Files */,
+			);
+			path = NetworkAdventures;
+			sourceTree = "<group>";
+		};
+		84CFD04D17A2A014004FC5DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CFD04E17A2A014004FC5DE /* NetworkAdventures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84CFD06117A2A014004FC5DE /* NetworkAdventuresTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CFD06717A2A014004FC5DE /* NetworkAdventuresTests.h */,
+				84CFD06817A2A014004FC5DE /* NetworkAdventuresTests.m */,
+				84CFD06217A2A014004FC5DE /* Supporting Files */,
+			);
+			path = NetworkAdventuresTests;
+			sourceTree = "<group>";
+		};
+		84CFD06217A2A014004FC5DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CFD06317A2A014004FC5DE /* NetworkAdventuresTests-Info.plist */,
+				84CFD06417A2A014004FC5DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CFD04617A2A014004FC5DE /* NetworkAdventures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CFD06C17A2A014004FC5DE /* Build configuration list for PBXNativeTarget "NetworkAdventures" */;
+			buildPhases = (
+				84CFD04317A2A014004FC5DE /* Sources */,
+				84CFD04417A2A014004FC5DE /* Frameworks */,
+				84CFD04517A2A014004FC5DE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkAdventures;
+			productName = NetworkAdventures;
+			productReference = 84CFD04717A2A014004FC5DE /* libNetworkAdventures.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84CFD05717A2A014004FC5DE /* NetworkAdventuresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CFD06F17A2A014004FC5DE /* Build configuration list for PBXNativeTarget "NetworkAdventuresTests" */;
+			buildPhases = (
+				84CFD05317A2A014004FC5DE /* Sources */,
+				84CFD05417A2A014004FC5DE /* Frameworks */,
+				84CFD05517A2A014004FC5DE /* Resources */,
+				84CFD05617A2A014004FC5DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CFD05F17A2A014004FC5DE /* PBXTargetDependency */,
+			);
+			name = NetworkAdventuresTests;
+			productName = NetworkAdventuresTests;
+			productReference = 84CFD05817A2A014004FC5DE /* NetworkAdventuresTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CFD03F17A2A014004FC5DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tipping Canoe";
+			};
+			buildConfigurationList = 84CFD04217A2A014004FC5DE /* Build configuration list for PBXProject "NetworkAdventures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84CFD03E17A2A014004FC5DE;
+			productRefGroup = 84CFD04817A2A014004FC5DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CFD04617A2A014004FC5DE /* NetworkAdventures */,
+				84CFD05717A2A014004FC5DE /* NetworkAdventuresTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CFD05517A2A014004FC5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CFD06617A2A014004FC5DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84CFD05617A2A014004FC5DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CFD04317A2A014004FC5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CFD05217A2A014004FC5DE /* NetworkAdventures.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CFD05317A2A014004FC5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CFD06917A2A014004FC5DE /* NetworkAdventuresTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CFD05F17A2A014004FC5DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CFD04617A2A014004FC5DE /* NetworkAdventures */;
+			targetProxy = 84CFD05E17A2A014004FC5DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CFD06417A2A014004FC5DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CFD06517A2A014004FC5DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CFD06A17A2A014004FC5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84CFD06B17A2A014004FC5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CFD06D17A2A014004FC5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NetworkAdventures.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkAdventures/NetworkAdventures-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84CFD06E17A2A014004FC5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NetworkAdventures.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkAdventures/NetworkAdventures-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		84CFD07017A2A014004FC5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkAdventures/NetworkAdventures-Prefix.pch";
+				INFOPLIST_FILE = "NetworkAdventuresTests/NetworkAdventuresTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84CFD07117A2A014004FC5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkAdventures/NetworkAdventures-Prefix.pch";
+				INFOPLIST_FILE = "NetworkAdventuresTests/NetworkAdventuresTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CFD04217A2A014004FC5DE /* Build configuration list for PBXProject "NetworkAdventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CFD06A17A2A014004FC5DE /* Debug */,
+				84CFD06B17A2A014004FC5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CFD06C17A2A014004FC5DE /* Build configuration list for PBXNativeTarget "NetworkAdventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CFD06D17A2A014004FC5DE /* Debug */,
+				84CFD06E17A2A014004FC5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84CFD06F17A2A014004FC5DE /* Build configuration list for PBXNativeTarget "NetworkAdventuresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CFD07017A2A014004FC5DE /* Debug */,
+				84CFD07117A2A014004FC5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CFD03F17A2A014004FC5DE /* Project object */;
+}
