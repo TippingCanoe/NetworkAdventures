@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Tipping Canoe. All rights reserved.
 //
 
-#import "Path.h"
+#import "NAPath.h"
 
-@implementation Path
+@implementation NAPath
 
 @end

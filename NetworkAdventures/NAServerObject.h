@@ -1,13 +1,13 @@
 //
-//  ServerObject.m
+//  ServerObject.h
 //  NetworkAdventures
 //
 //  Created by Jeff on 2013-07-26.
 //  Copyright (c) 2013 Tipping Canoe. All rights reserved.
 //
 
-#import "ServerObject.h"
+#import <Foundation/Foundation.h>
 
-@implementation ServerObject
+@interface NAServerObject : NSObject
 
 @end

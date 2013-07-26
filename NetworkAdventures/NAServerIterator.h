@@ -7,16 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Server.h"
-#import "ServerObject.h"
-#import "Path.h"
+#import "NAServer.h"
+#import "NAServerObject.h"
+#import "NAPath.h"
 
-@interface ServerIterator : NSObject
-@property (nonatomic,retain) Server *server;
-@property (nonatomic,retain) Path *currentPath;
+@interface NAServerIterator : NSObject
+@property (nonatomic,retain) NAServer *server;
+@property (nonatomic,retain) NAPath *currentPath;
 
 - (void)goToRootWithCompletionBlock:(void(^)(NSArray *objects,NSError *error))completion;
 - (void)listServerObjectsWithCompletionBlock:(void(^)(NSArray *objects,NSError *error))completion;
-- (void)navigateToObject:(ServerObject *)object withCompletionBlock:(void(^)(NSArray *objects,NSError *error))completion;
+- (void)navigateToObject:(NAPath *)object withCompletionBlock:(void(^)(NSArray *objects,NSError *error))completion;
 
 @end

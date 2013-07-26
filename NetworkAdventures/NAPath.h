@@ -1,15 +1,13 @@
 //
-//  Server.m
+//  Path.h
 //  NetworkAdventures
 //
 //  Created by Jeff on 2013-07-26.
 //  Copyright (c) 2013 Tipping Canoe. All rights reserved.
 //
 
-#import "Server.h"
+#import "NAServerObject.h"
 
-@implementation Server
-- (void)authenticate{
-    
-}
+@interface NAPath : NAServerObject
+
 @end

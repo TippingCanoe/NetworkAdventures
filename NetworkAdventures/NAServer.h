@@ -10,16 +10,16 @@
 
 typedef enum {
     ServerTypeSMB
-} ServerType;
+} NAServerType;
 
-@interface Server : NSObject
+@interface NAServer : NSObject
 @property (nonatomic,retain) NSString *domesticName;
 @property (nonatomic,retain) NSString *userName;
 @property (nonatomic,retain) NSString *password;
 @property (nonatomic,retain) NSString *hostName;
 @property (nonatomic,retain) NSString *domainName;
 @property (nonatomic,retain) NSString *ipAddress;
-@property (nonatomic) ServerType type;
+@property (nonatomic) NAServerType type;
 
 - (void)authenticate;
 
