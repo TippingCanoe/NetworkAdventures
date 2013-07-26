@@ -9,7 +9,7 @@
 #import "NAServer.h"
 
 @implementation NAServer
-- (void)authenticate{
+- (void)connectWithUsername:(NSString *)username andPassword:(NSString *)password andCompletionBlock:(void(^)(BOOL connected,NSError *error))completion{
     
 }
 @end

@@ -7,6 +7,9 @@
 //
 
 #import "NetworkAdventuresTests.h"
+#import "NetworkAdventures.h"
+#import "NAServer.h"
+#import "NAServerIterator.h"
 
 @implementation NetworkAdventuresTests
 
@@ -24,9 +27,18 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in NetworkAdventuresTests");
+- (void)testGetServers{
+    [NetworkAdventures listAvailableServersWithCompletionBlock:^(NSArray *objects, NSError *error) {
+        NAServer *server = objects[0];
+        [server connectWithUsername:@"peedus" andPassword:@"peedus" andCompletionBlock:^(BOOL connected, NSError *error) {
+            NAServerIterator *iterator = [[NAServerIterator alloc] init];
+            iterator.server = server;
+            
+            [iterator goToRootWithCompletionBlock:^(NSArray *objects, NSError *error) {
+                
+            }];
+        }];
+    }];
 }
 
 @end

@@ -21,6 +21,6 @@ typedef enum {
 @property (nonatomic,retain) NSString *ipAddress;
 @property (nonatomic) NAServerType type;
 
-- (void)authenticate;
+- (void)connectWithUsername:(NSString *)username andPassword:(NSString *)password andCompletionBlock:(void(^)(BOOL connected,NSError *error))completion;
 
 @end
