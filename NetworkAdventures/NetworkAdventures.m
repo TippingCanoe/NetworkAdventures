@@ -9,5 +9,7 @@
 #import "NetworkAdventures.h"
 
 @implementation NetworkAdventures
-
++ (void)listAvailableServersWithCompletionBlock:(void(^)(NSArray *objects,NSError *error))completion{
+    
+}
 @end

@@ -16,6 +16,11 @@
 		84CFD10217A2A190004FC5DE /* libNetworkAdventures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CFD0E917A2A190004FC5DE /* libNetworkAdventures.a */; };
 		84CFD10817A2A190004FC5DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84CFD10617A2A190004FC5DE /* InfoPlist.strings */; };
 		84CFD10B17A2A190004FC5DE /* NetworkAdventuresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD10A17A2A190004FC5DE /* NetworkAdventuresTests.m */; };
+		84CFD11717A2A2C3004FC5DE /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD11617A2A2C3004FC5DE /* Server.m */; };
+		84CFD11A17A2A387004FC5DE /* ServerIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD11917A2A387004FC5DE /* ServerIterator.m */; };
+		84CFD11D17A2A3CC004FC5DE /* ServerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD11C17A2A3CC004FC5DE /* ServerObject.m */; };
+		84CFD12017A2A4C0004FC5DE /* Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD11F17A2A4C0004FC5DE /* Path.m */; };
+		84CFD12317A2A4C7004FC5DE /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD12217A2A4C7004FC5DE /* File.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		84CFD10717A2A190004FC5DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84CFD10917A2A190004FC5DE /* NetworkAdventuresTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkAdventuresTests.h; sourceTree = "<group>"; };
 		84CFD10A17A2A190004FC5DE /* NetworkAdventuresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkAdventuresTests.m; sourceTree = "<group>"; };
+		84CFD11517A2A2C3004FC5DE /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		84CFD11617A2A2C3004FC5DE /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		84CFD11817A2A387004FC5DE /* ServerIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerIterator.h; sourceTree = "<group>"; };
+		84CFD11917A2A387004FC5DE /* ServerIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerIterator.m; sourceTree = "<group>"; };
+		84CFD11B17A2A3CC004FC5DE /* ServerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerObject.h; sourceTree = "<group>"; };
+		84CFD11C17A2A3CC004FC5DE /* ServerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerObject.m; sourceTree = "<group>"; };
+		84CFD11E17A2A4C0004FC5DE /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
+		84CFD11F17A2A4C0004FC5DE /* Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Path.m; sourceTree = "<group>"; };
+		84CFD12117A2A4C7004FC5DE /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		84CFD12217A2A4C7004FC5DE /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +126,7 @@
 		84CFD0EE17A2A190004FC5DE /* NetworkAdventures */ = {
 			isa = PBXGroup;
 			children = (
+				84CFD11417A2A250004FC5DE /* Business */,
 				84CFD0F117A2A190004FC5DE /* NetworkAdventures.h */,
 				84CFD0F317A2A190004FC5DE /* NetworkAdventures.m */,
 				84CFD0EF17A2A190004FC5DE /* Supporting Files */,
@@ -143,6 +159,23 @@
 				84CFD10617A2A190004FC5DE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84CFD11417A2A250004FC5DE /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				84CFD11517A2A2C3004FC5DE /* Server.h */,
+				84CFD11617A2A2C3004FC5DE /* Server.m */,
+				84CFD11817A2A387004FC5DE /* ServerIterator.h */,
+				84CFD11917A2A387004FC5DE /* ServerIterator.m */,
+				84CFD11B17A2A3CC004FC5DE /* ServerObject.h */,
+				84CFD11C17A2A3CC004FC5DE /* ServerObject.m */,
+				84CFD11E17A2A4C0004FC5DE /* Path.h */,
+				84CFD11F17A2A4C0004FC5DE /* Path.m */,
+				84CFD12117A2A4C7004FC5DE /* File.h */,
+				84CFD12217A2A4C7004FC5DE /* File.m */,
+			);
+			name = Business;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CFD0F417A2A190004FC5DE /* NetworkAdventures.m in Sources */,
+				84CFD11717A2A2C3004FC5DE /* Server.m in Sources */,
+				84CFD11A17A2A387004FC5DE /* ServerIterator.m in Sources */,
+				84CFD11D17A2A3CC004FC5DE /* ServerObject.m in Sources */,
+				84CFD12017A2A4C0004FC5DE /* Path.m in Sources */,
+				84CFD12317A2A4C7004FC5DE /* File.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +441,7 @@
 				84CFD11017A2A190004FC5DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CFD11117A2A190004FC5DE /* Build configuration list for PBXNativeTarget "NetworkAdventuresTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +450,7 @@
 				84CFD11317A2A190004FC5DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
