@@ -13,31 +13,34 @@
 
 @implementation NetworkAdventuresTests
 
-- (void)setUp
-{
+- (void)setUp{
     [super setUp];
-    
-    // Set-up code here.
+    operationsInProgress=0;
 }
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
+- (void)tearDown{
+    while (operationsInProgress > 0) {
+        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
+        usleep(10000);
+    }
     [super tearDown];
 }
 
 - (void)testGetServers{
+    operationsInProgress++;
     [NetworkAdventures listAvailableServersWithCompletionBlock:^(NSArray *objects, NSError *error) {
         NAServer *server = objects[0];
+        operationsInProgress++;
         [server connectWithUsername:@"peedus" andPassword:@"peedus" andCompletionBlock:^(BOOL connected, NSError *error) {
             NAServerIterator *iterator = [[NAServerIterator alloc] init];
             iterator.server = server;
-            
+            operationsInProgress++;
             [iterator goToRootWithCompletionBlock:^(NSArray *objects, NSError *error) {
-                
+                operationsInProgress--;
             }];
+            operationsInProgress--;
         }];
+        operationsInProgress--;
     }];
 }
 

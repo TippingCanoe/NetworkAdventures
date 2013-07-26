@@ -8,6 +8,8 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface NetworkAdventuresTests : SenTestCase
+@interface NetworkAdventuresTests : SenTestCase{
+    int operationsInProgress;
+}
 
 @end
